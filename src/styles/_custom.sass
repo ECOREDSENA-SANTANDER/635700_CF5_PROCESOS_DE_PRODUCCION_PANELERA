@@ -3,28 +3,280 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 65%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 31%
+    right: 10%
+  
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 58%
+
+.banner-principal__img
+  width: 400px !important    
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+.boton *, .boton--sm * 
+  color: #FFFFFF
+
+.cajon-b.color-primario:before 
+  background-color: #EDE5F9 !important
+  top: 50%
+  left: 60%
+  right: 0
+  bottom: 0
+
+.fas, fa-plus
+  color: #FFFFFF !important
   
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
-.banner-interno__titulo__icono i
-  color: $color-primario
-figcaption
-  font-weight: normal
+.tarjeta--azul 
+  background-color: #FFFFFF !important
+
+.color-slyder
+  background-color: #FBE0E0 !important
+
+.color-tarjetas
+  background-color: #ECF3DD !important
+
+.color-tarjetas-segunda
+  background-color: #EDB780 !important
+
+.color-linea-tiempo
+  background-color: #E7DDF7 !important
+
+.listas-primera 
+  background-color: $color-secundario !important
+  min-width: 15px
+  height: 15px
+
+.listas-segunda 
+  background-color: $color-acento-botones !important
+  min-width: 15px
+  height: 15px
+
+.slyder-a__bullets__item--active 
+  background-color: #E2872C
+  border-color: #E2872C
+  opacity: 1
+
+
+.bloque-texto-x 
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+
+.bloque-texto-x__img
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-position: right;
+  background-size: cover;
+.bloque-texto-x__texto 
+  position: relative;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.95);
+
+//---Animaciones
+
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: #12263F !important
+
+.color-cajon
+  background-color: #FBE1E1 !important
+
+.color-cajon-segundo
+  background-color: #E5D9F7 !important
+
+.tarjeta-primera
+  background-color: #81AF1D !important
+
+.tarjeta-segunda
+  background-color: #F6F6F6 !important
+
+.tarjeta-tercera
+  background-color: #E2872C !important
+
+.tarjeta-cuarta
+  background-color: #B46C23 !important
+
+
+
+.acordion__activo
+  background-color: #FBEDDF !important
+
+.tarjeta-puntos-calientes
+  background-color: #FBEDDF !important
+
+.img-infografica-b__modal 
+  background-color: #FBEDDF !important
+
+.img-infografica-b__modal__contenido div > * 
+  color: #12263F !important
+
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto
+
+
+.img-infografica-b__modal 
+  display: flex
+  justify-content: center
+  align-items: center   
+
+
+.fca 
+  background-color: #F4EFFC !important
+.fcb 
+  background-color: #E53935 !important
+.fac
+  background-color: #F6F6F6 !important
+
+.fad
+  background-color: #ECF3DD !important
+
+
+
+.tamanos
+  flex: 0 0 auto
+  width: 25%
+
+.nav-holder2
+  display: inline-block
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: $color-acento-botones
+  opacity: 0.8
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+
+.nav-holder2:before
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+
+.nav-holder2:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 0.9
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  border-top-left-radius: 14px
+  border-top-right-radius: 14px
+
+.nav-holder2
+  .text
+    position: absolute
+    top: 73%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+
+.nav-holder2 .h4
+  margin: 0
+  opacity: 1
+
+.nav-holder2:hover
+  .text
+    top: 5%
+  h4, p
+    color: #12263F
+    opacity: 1
+
+.p-3.pb-0.p-md-4.pb-md-0.mb-3.fac.acordion__activo
+  background-color: #FBEDDF !important
+
+.fas, .fa-plus 
+  color: #12263F !important
+
+.acordion__accion__btn--a i, .acordion__accion__btn--b i 
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
  
+
+.creditos
+  content: url("../assets/template/logo_IE.png")
+  position: relative
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  max-width: 100%
+  height: auto
+  padding: 0em
+  margin-top: 100px
+
+
+.barra-avance__boton--regresar span 
+    color: white !important
+
+.boton *, .boton--sm * 
+    color: white !important
+
+.accesibilidad__menu i[data-v-5c8f2502] 
+    color: white !important
+
+.lista-ul__vineta:before 
+    content: ''
+    line-height: 1em
+
+
+.bloque-texto-g.color-secundario 
+    background-color: #E54228
