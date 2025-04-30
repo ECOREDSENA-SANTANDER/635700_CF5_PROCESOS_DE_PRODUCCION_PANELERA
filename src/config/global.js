@@ -279,11 +279,6 @@ export default {
     },
     {
       referencia:
-        'Osorio, G. (2007). <i>Manual técnico buenas prácticas agrícolas (BBA) y buenas prácticas de manufactura (BPM) en la producción de caña y panela. Extracción de jugos, (Tabla 22)</i>. Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO).',
-      link: 'https://www.fao.org/3/a1525s/a1525s00.pdf',
-    },
-    {
-      referencia:
         'Prada, L. (2002). <i>Mejoramiento en la calidad de miel y panela</i>.',
       link: 'http://hdl.handle.net/20.500.12324/17691',
     },
